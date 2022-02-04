@@ -25,7 +25,8 @@ public class clase_math{
          System.out.println("El redondeado del número es " +redondeo);
 
         //Math.random(): sirve para crear números aleatorios:
-        
+        int aleaotrio = (int)Math.Random() * 100;
+        System.out.println("El número aleatorio obtenido es " + aleatorio);
 
         //(int), (double) :Refundición: almacenar una variable de otro tipo:
         double  decimales = 5.85;
