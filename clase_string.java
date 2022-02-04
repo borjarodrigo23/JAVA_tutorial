@@ -47,10 +47,10 @@ public class clase_string {
             String frase2 = tec.next();
             int espacio1 = frase2.indexOf(" "); //nos saca la posición del primer espacio
             String pal1 = frase2.substring(0, espacio1);
-            //int espacio2 = frase2.lastIndexOf(" "); //nos saca el último espacio
-            //int pos2 = frase2.length();
-            //String pal2 = frase2.substring(espacio2, pos2);
-            System.out.println("La frase resultante es: " +pal1);
+            int espacio2 = frase2.lastIndexOf(" "); //nos saca el último espacio
+            int pos2 = frase2.length();
+            String pal2 = frase2.substring(espacio2, pos2);
+            System.out.println("La frase resultante es: " +pal1+ "" + pal2);
 
         }
     
